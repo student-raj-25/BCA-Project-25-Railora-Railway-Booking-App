@@ -6,6 +6,9 @@ Live Demo:https://railora-ticket-book.netlify.app
 <br>
 
 ![image alt](https://github.com/student-raj-25/railora-railway-booking/blob/main/rail.PNG)
+<br>
+![image alt](https://github.com/student-raj-25/railora-railway-booking/blob/main/create.PNG)
+<br>
 
 ## Project structure
 
