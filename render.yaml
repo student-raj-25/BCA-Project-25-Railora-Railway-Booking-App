@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: railora-api
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATABASE_PATH
+        value: /opt/render/project/src/data/railway.sqlite
+      - key: CLIENT_ORIGIN
+        sync: false
+    disk:
+      name: railora-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
