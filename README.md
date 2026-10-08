@@ -1,6 +1,11 @@
 # Railora railway ticket booking
 
 Railora is a responsive, full-stack railway booking demo built with HTML, CSS, Bootstrap 5, vanilla JavaScript, Express, and SQLite. It uses sample train schedules and simulated payments; it is not an official railway booking service and must not be used to buy real tickets.
+<br>
+Live Demo:https://railora-ticket-book.netlify.app
+<br>
+
+![image alt](https://github.com/student-raj-25/railora-railway-booking/blob/main/rail.PNG)
 
 ## Project structure
 
